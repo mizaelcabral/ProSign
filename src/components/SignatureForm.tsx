@@ -99,6 +99,17 @@ export function SignatureForm({ data, onChange }: SignatureFormProps) {
                 className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
+            
+            <div className="mt-6 p-4 bg-blue-50 rounded-md border border-blue-100 text-sm text-blue-800">
+              <h4 className="font-semibold mb-2">Como adicionar minhas imagens?</h4>
+              <p className="mb-2">Para que a imagem apareça corretamente na assinatura, ela precisa estar hospedada na internet.</p>
+              <ol className="list-decimal pl-4 space-y-1">
+                <li>Acesse o site <a href="https://imguser.free.nf/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-700 font-medium">https://imguser.free.nf/</a></li>
+                <li>Faça o upload da sua foto ou logotipo</li>
+                <li>Copie o link direto da imagem gerado pelo site</li>
+                <li>Cole o link nos campos acima</li>
+              </ol>
+            </div>
           </div>
         )}
 
