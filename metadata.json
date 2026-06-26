@@ -1,0 +1,6 @@
+{
+  "name": "ProSign",
+  "description": "A professional email signature generator for individuals and businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
